@@ -1,0 +1,80 @@
+! version = 2.0
+//! local concat = newline
+
++ on
+- funciona!!
+
++ adios
+- no me funciona, \n
+^ aun no puedo responder
+
++ *
+- estrellita
+- .. {random} negro | blanco {/random}
+- dices <star>
+
++ dime (caca|casa) 
+- digo <star>
+
++ eres [feo]
+- tu mas
+
++ tienes [casa|dinero|trabajo]
+- no te importa
+
++ [*] pez [*]
+- odio al pez
+
++ web
+- <a href= "www.com.com">click</a>
+
++ srai
+@ web
+
++ that
+- recordare
+
++ that2
+% recordare
+- otra vez ?
+
+// ARRAY // =======
+
+// entre parentesis;tengo que poner algún color del array obligado
+! array color = rojo azul verde amarillo
++ sabes mi (@color)
+- no lo sé
+- es <star>
+
+// sin parentesis, la estrella no funcionará (además de poner un color obligado)
+! array color2 = rosa celeste naranja lila
++ este es mi @color2
+- no lo sé
+- es <star>
+
++ mi nombre es *
+- <set name=<star>> un placer <get name>
+
++ dime mi nombre
+- eres <get name>
+
++ condicional
+* <get name> == pp => PP !!
+- no veo
+
++ topic
+- adentro {topic=prueba}
+
+> topic prueba
+
++ *
+- estás encerrado JAJA
+
++ topic off
+- topic OFF {topic=random}
+
+
++ lineas
+- ola
+
+
